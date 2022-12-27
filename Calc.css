@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cotainer{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: azure;
+}
+
+.calculator{
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(18, 19, 15);
+    /* box-shadow: -8px -8px 15px  */
+    box-shadow: -8px -8px 15px rgba(66, 45, 45, 0.795), 3px 3px rgba(88, 50, 50, 0.829);
+}
+h1{
+    color: darkcyan;
+    font-size: 60px;
+}
+form .display{
+        margin: 20px 0;
+        display: flex;
+        justify-items: flex-end;
+        
+}
+
+form #result{
+    text-align: right;
+    box-shadow:none;
+     box-shadow:transparent;
+}
+
+form .display input{
+     flex: 1;
+     font-size: 45px;
+     color: #fff;
+     background: transparent;
+     box-shadow:none;
+     box-shadow:transparent;
+}
+
+.calculator form input{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 10px rgba(230, 207, 207, 0.473), 4px 4px 10px rgba(216, 193, 193, 0.548);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.calculator form input:hover{
+    box-shadow: -6px -6px 10px rgba(88, 50, 50, 0.1), 5px 5px 15px rgba(51, 29, 29, 0.2);
+}
+
+form input.equal{
+    width: 120px;
+}
+form input.equal:hover{
+    width: 121px;
+}
+form input.symbols{
+    color: rgb(10, 190, 130);
+}
